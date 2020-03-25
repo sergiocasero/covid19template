@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "COVID-19 MAKERS",
+        "subtitle": "Extremadura"
+    },
+    "explanation": {
+        "title": "Luchamos contra el COVID-19 en la comunidad de Extremadura.",
+        "subtitle": "Somos un grupo de personas especializados en impresión 3D. Desde el inicio del estado de alarma nos hemos unodp ara ayudar en la lucha contra el COVID-19 haciendo impresiones en 3D de Palas y Viseras para ayudar a quién más lo necesita"
+    },
+    "order_donations": "Actualmente trabajamos bajo pedidos y recibiendo donaciones de material, Para ponerte en contacto con nosotros rellena el formulario que se ajuste a tu solicitud:",
+    "orders": "Solicitar un pedido",
+    "donations": "Donar material",
+    "production": {
+        "title": "Conoce nuestra producción",
+        "subtitle": "En las siguientes gráficas podrás encontrar la información actual sobre nusetra producción y colas de impresión",
+        "more": {
+            "title": "Información completa",
+            "subtitle": "Accede a nuestra cuenta en Google Data para ver la información detallada por ciudad en tiempo real.",
+            "action": "Acceder al dashboard"
+        }
+    },
+    "hastag": {
+        "title": "#QuédateEnCasa",
+        "subtitle": "Por ti, por los tuyos y por los nuestros."
+    },
+    "visors": {
+        "title": "Viseras COVID",
+        "text": ""
+    },
+    "shovel": {
+        "title": "Palas para respiradores asistidos",
+        "text": ""
+    },
+    "social": {
+        "title": "¡SÍGUENOS EN NUESTRAS REDES!",
+        "facebook": "",
+        "twitter": "",
+        "instagram": ""
+    }
+}
