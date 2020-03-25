@@ -1,7 +1,8 @@
 <template>
     <div id="app">
         <Header/>
-        <div id="nav">
+        <Explanation/>
+        <!--<div id="nav">
             <router-link to="/">Inicio</router-link>
             |
             <router-link to="/orders">Pedidos</router-link>
@@ -12,7 +13,7 @@
             |
             <router-link to="/shovels">Palas</router-link>
         </div>
-        <router-view/>
+        <router-view/>-->
     </div>
 </template>
 
@@ -46,8 +47,9 @@
 </style>
 <script>
     import Header from "@/views/Header";
+    import Explanation from "@/views/Explanation";
 
     export default {
-        components: {Header}
+        components: {Explanation, Header}
     }
 </script>
