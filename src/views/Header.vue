@@ -30,7 +30,7 @@
         methods: {
             handleResize() {
                 this.window.width = (window.innerWidth);
-                let height = (this.window.width * 1080 / 1920);
+                let height = (this.window.width * 1080 / 1920) - 20;
 
                 if (height > 640) {
                     height = 640;
