@@ -7,7 +7,10 @@
         "title": "Luchamos contra el COVID-19 en la comunidad de Extremadura.",
         "subtitle": "Somos un grupo de personas especializados en impresión 3D. Desde el inicio del estado de alarma nos hemos unodp ara ayudar en la lucha contra el COVID-19 haciendo impresiones en 3D de Palas y Viseras para ayudar a quién más lo necesita"
     },
-    "order_donations": "Actualmente trabajamos bajo pedidos y recibiendo donaciones de material, Para ponerte en contacto con nosotros rellena el formulario que se ajuste a tu solicitud:",
+    "order_donation": {
+        "title": "Actualmente trabajamos bajo pedido, solo debes rellenar el formulario de abajo con tus datos y te hacemos llegar la donación.",
+        "subtitle": "Si eres una empresa o particular y quieres hacernos una donación para ayudarnos a seguir realizando nuestras impresiones, por favor rellena el formulario de la derecha."
+    },
     "orders": "Solicitar un pedido",
     "donations": "Donar material",
     "production": {
