@@ -13,11 +13,13 @@
     },
     "orders": {
         "title": "Solicitar un pedido",
-        "subtitle": "Dinos que necesitas y nosotros te lo enviamos."
+        "subtitle": "Dinos que necesitas y nosotros te lo enviamos.",
+        "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
     },
     "donations": {
         "title": "Ayúdanos a seguir",
-        "subtitle": "Con tu aporte podrémos llegar a más personas."
+        "subtitle": "Con tu aporte podrémos llegar a más personas.",
+        "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
     },
     "production": {
         "title": "Conoce nuestra producción",

@@ -13,11 +13,13 @@
             <Button
                     class="button"
                     icon="fill-1.svg"
+                    v-bind:link="config.orders.link"
                     v-bind:subtitle="config.orders.subtitle"
                     v-bind:title="config.orders.title"/>
             <Button
                     class="button"
                     icon="ic-donation.svg"
+                    v-bind:link="config.donations.link"
                     v-bind:subtitle="config.donations.subtitle"
                     v-bind:title="config.donations.title"/>
         </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="button">
-        <a class="link" v-bind:href="link">
+        <a class="link" target="_blank" v-bind:href="link">
             <img v-bind:src="icon">
             <span class="title">{{title}}</span>
             <span class="subtitle">{{subtitle}}</span>
