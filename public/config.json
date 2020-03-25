@@ -33,7 +33,15 @@
     },
     "hashtag": {
         "title": "#QuédateEnCasa",
-        "subtitle": "Por ti, por los tuyos y por los nuestros."
+        "subtitle": "Por ti, por los tuyos y por los nuestros.",
+        "image": "hashtag.jpg",
+        "imageset": "hashtag@2x.jpg 2x, hashtag@3x.jpg 3x"
+    },
+    "be_part": {
+        "title": "¿Quieres ser parte de COVID-19 Makers?",
+        "subtitle": "Si tienes una impresora 3D y disponibilidad para realizar las impresiones ¡Únete al Grupo!",
+        "image": "img-unete.jpg",
+        "imageset": "img-unete@2x.jpg 2x, img-unete@3x.jpg 3x"
     },
     "visors": {
         "title": "Viseras COVID",

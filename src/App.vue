@@ -3,6 +3,8 @@
         <Header v-bind:header="config.header"/>
         <Explanation v-bind:config="config"/>
         <Production v-bind:production="config.production"/>
+        <Hashtag v-bind:info="config.hashtag"/>
+        <Hashtag v-bind:info="config.be_part"/>
         <!--<div id="nav">
             <router-link to="/">Inicio</router-link>
             |
@@ -23,9 +25,10 @@
     import Explanation from "@/views/Explanation";
     import Production from "@/views/Production";
     import * as axios from "axios";
+    import Hashtag from "@/views/Hashtag";
 
     export default {
-        components: {Production, Explanation, Header},
+        components: {Hashtag, Production, Explanation, Header},
         data() {
             return {
                 config: {}
