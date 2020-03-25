@@ -4,6 +4,8 @@
         <Explanation v-bind:config="config"/>
         <Production v-bind:production="config.production"/>
         <Hashtag v-bind:info="config.hashtag"/>
+        <Visors v-bind:visors="config.visors"/>
+        <Shovel v-bind:shovel="config.shovel"/>
         <Hashtag v-bind:info="config.be_part"/>
         <!--<div id="nav">
             <router-link to="/">Inicio</router-link>
@@ -26,9 +28,11 @@
     import Production from "@/views/Production";
     import * as axios from "axios";
     import Hashtag from "@/views/Hashtag";
+    import Visors from "@/views/Visors";
+    import Shovel from "@/views/Shovel";
 
     export default {
-        components: {Hashtag, Production, Explanation, Header},
+        components: {Shovel, Visors, Hashtag, Production, Explanation, Header},
         data() {
             return {
                 config: {}

@@ -3,7 +3,10 @@
 
         <div class="header">
             <span class="title">{{info.title}}</span>
-            <span class="subtitle">{{info.subtitle}}</span>
+            <span class="subtitle">
+                {{info.subtitle}}
+                <a v-bind:href="info.link" v-if="info.link != ''">¡Únete al grupo!</a>
+            </span>
         </div>
 
         <img class="Bitmap"
@@ -61,5 +64,10 @@
         letter-spacing: normal;
         text-align: center;
         color: #ffffff;
+    }
+
+    a {
+        color: #ffffff;
+        font-style: italic;
     }
 </style>

@@ -10,7 +10,7 @@
         <div class="more">
             <span class="title">{{production.more.title}}</span>
             <span class="subtitle">{{production.more.subtitle}}</span>
-            <a v-bind:href="production.more.link">{{production.more.action}}</a>
+            <a target="_blank" v-bind:href="production.more.link">{{production.more.action}}</a>
         </div>
     </div>
 </template>
