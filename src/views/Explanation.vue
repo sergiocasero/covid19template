@@ -8,14 +8,29 @@
             <span class="title">{{config.order_donation.title}}</span>
             <span class="subtitle">{{config.order_donation.subtitle}}</span>
         </div>
+
+        <div class="buttons">
+            <Button
+                    class="button"
+                    icon="fill-1.svg"
+                    v-bind:subtitle="config.orders.subtitle"
+                    v-bind:title="config.orders.title"/>
+            <Button
+                    class="button"
+                    icon="ic-donation.svg"
+                    v-bind:subtitle="config.donations.subtitle"
+                    v-bind:title="config.donations.title"/>
+        </div>
     </div>
 </template>
 
 <script>
     import * as axios from "axios";
+    import Button from "@/views/Button";
 
     export default {
         name: "Explanation",
+        components: {Button},
         data() {
             return {
                 config: {}
@@ -101,5 +116,16 @@
         letter-spacing: normal;
         text-align: center;
         color: #4f4f4f;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttons .button {
+        margin: 34px 17px;
     }
 </style>

@@ -11,8 +11,14 @@
         "title": "Actualmente trabajamos bajo pedido, solo debes rellenar el formulario de abajo con tus datos y te hacemos llegar la donación.",
         "subtitle": "Si eres una empresa o particular y quieres hacernos una donación para ayudarnos a seguir realizando nuestras impresiones, por favor rellena el formulario de la derecha."
     },
-    "orders": "Solicitar un pedido",
-    "donations": "Donar material",
+    "orders": {
+        "title": "Solicitar un pedido",
+        "subtitle": "Dinos que necesitas y nosotros te lo enviamos."
+    },
+    "donations": {
+        "title": "Ayúdanos a seguir",
+        "subtitle": "Con tu aporte podrémos llegar a más personas."
+    },
     "production": {
         "title": "Conoce nuestra producción",
         "subtitle": "En las siguientes gráficas podrás encontrar la información actual sobre nusetra producción y colas de impresión",
@@ -22,7 +28,7 @@
             "action": "Acceder al dashboard"
         }
     },
-    "hastag": {
+    "hashtag": {
         "title": "#QuédateEnCasa",
         "subtitle": "Por ti, por los tuyos y por los nuestros."
     },
