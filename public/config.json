@@ -27,7 +27,8 @@
         "more": {
             "title": "Información completa",
             "subtitle": "Accede a nuestra cuenta en Google Data para ver la información detallada por ciudad en tiempo real.",
-            "action": "Acceder al dashboard"
+            "action": "Acceder al dashboard",
+            "link": ""
         }
     },
     "hashtag": {

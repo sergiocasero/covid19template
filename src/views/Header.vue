@@ -4,8 +4,8 @@
 
         <div class="container" v-bind:style="{marginTop: marginTop + 'px'}">
             <img src="../assets/ic-logotype.svg">
-            <span class="title">{{config.header.title}}</span>
-            <span class="subtitle">{{config.header.subtitle}}</span>
+            <span class="title">{{header.title}}</span>
+            <span class="subtitle">{{header.subtitle}}</span>
         </div>
         <video autoplay loop muted playsinline width="100%">
             <source src="../assets/header.mp4" type="video/mp4">
@@ -14,18 +14,17 @@
 </template>
 
 <script>
-    import * as axios from "axios";
 
     export default {
         name: "Header",
+        props: ["header"],
         data() {
             return {
                 window: {
                     width: 0,
                     height: 0
                 },
-                marginTop: 0,
-                config: {}
+                marginTop: 0
             }
         },
         methods: {
@@ -38,16 +37,11 @@
                 }
                 this.window.height = height;
                 this.marginTop = this.window.height / 4;
-            },
-            async getConfig() {
-                this.config = (await axios.get("config.json")).data;
-                console.log(this.config);
             }
         },
         created() {
             window.addEventListener('resize', this.handleResize);
             this.handleResize();
-            this.getConfig();
         },
         destroyed() {
             window.removeEventListener('resize', this.handleResize);

@@ -27,26 +27,12 @@
 </template>
 
 <script>
-    import * as axios from "axios";
     import Button from "@/views/Button";
 
     export default {
         name: "Explanation",
-        components: {Button},
-        data() {
-            return {
-                config: {}
-            }
-        },
-        methods: {
-            async getConfig() {
-                this.config = (await axios.get("config.json")).data;
-                console.log(this.config);
-            }
-        },
-        created() {
-            this.getConfig()
-        }
+        props: ["config"],
+        components: {Button}
     }
 </script>
 

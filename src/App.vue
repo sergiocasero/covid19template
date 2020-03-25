@@ -1,7 +1,8 @@
 <template>
     <div id="app">
-        <Header/>
-        <Explanation/>
+        <Header v-bind:header="config.header"/>
+        <Explanation v-bind:config="config"/>
+        <Production v-bind:production="config.production"/>
         <!--<div id="nav">
             <router-link to="/">Inicio</router-link>
             |
@@ -17,6 +18,30 @@
     </div>
 </template>
 
+<script>
+    import Header from "@/views/Header";
+    import Explanation from "@/views/Explanation";
+    import Production from "@/views/Production";
+    import * as axios from "axios";
+
+    export default {
+        components: {Production, Explanation, Header},
+        data() {
+            return {
+                config: {}
+            }
+        },
+        methods: {
+            async getConfig() {
+                this.config = (await axios.get("config.json")).data;
+                console.log(this.config);
+            }
+        },
+        created() {
+            this.getConfig();
+        }
+    }
+</script>
 <style>
     html, body {
         margin: 0;
@@ -45,11 +70,3 @@
         color: #42b983;
     }
 </style>
-<script>
-    import Header from "@/views/Header";
-    import Explanation from "@/views/Explanation";
-
-    export default {
-        components: {Explanation, Header}
-    }
-</script>
