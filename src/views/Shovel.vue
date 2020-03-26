@@ -31,6 +31,13 @@
         width: 418px;
         height: 418px;
         margin: 10px;
-        object-fit: c
+        object-fit: cover;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .shovel {
+            flex-direction: column-reverse;
+            margin: 16px;
+        }
     }
 </style>

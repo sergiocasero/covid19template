@@ -50,7 +50,6 @@
 
     .header .title {
         width: 550px;
-        height: 80px;
         font-family: Roboto;
         font-size: 34px;
         font-weight: bold;
@@ -65,7 +64,6 @@
 
     .header .subtitle {
         width: 550px;
-        height: 60px;
         font-family: Roboto;
         font-size: 15px;
         font-weight: normal;
@@ -79,7 +77,6 @@
 
     .order_donation .title {
         width: 550px;
-        height: 40px;
         font-family: Roboto;
         font-size: 18px;
         font-weight: 500;
@@ -94,7 +91,6 @@
 
     .order_donation .subtitle {
         width: 550px;
-        height: 40px;
         font-family: Roboto;
         font-size: 14px;
         font-weight: normal;
@@ -115,5 +111,16 @@
 
     .buttons .button {
         margin: 34px 17px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .explanation {
+            height: 720px;
+        }
+
+        .header, .header .title, .header .subtitle, .order_donation, .order_donation .title, .order_donation .subtitle {
+            width: 100%;
+        }
     }
 </style>

@@ -25,9 +25,8 @@
 <style scoped>
     img {
         width: 100%;
-        max-height: 400px;
+        max-height: 440px;
         object-fit: cover;
-
     }
 
     .header {
@@ -54,7 +53,6 @@
 
     .header .subtitle {
         width: 545px;
-        height: 20px;
         font-family: Roboto;
         font-size: 20px;
         font-weight: normal;
@@ -69,5 +67,23 @@
     a {
         color: #ffffff;
         font-style: italic;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .header, .header .title, .header .subtitle, .order_donation, .order_donation .title, .order_donation .subtitle {
+            width: 100%;
+        }
+
+        .header {
+            margin-top: 12px;
+        }
+
+        .header .title {
+            font-size: 32px;
+        }
+
+        .header .subtitle {
+            font-size: 12px;
+        }
     }
 </style>

@@ -57,10 +57,22 @@
     "image1": "shovel1.jpg",
     "image2": "shovel2.jpg"
   },
-  "social": {
-    "title": "¡SÍGUENOS EN NUESTRAS REDES!",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+  "footer": {
+    "links": [
+      {
+        "title": "Realizar un pedido",
+        "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
+      },
+      {
+        "title": "Solicitar una donación",
+        "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
+      }
+    ],
+    "social": {
+      "title": "¡SÍGUENOS EN NUESTRAS REDES!",
+      "facebook": "",
+      "twitter": "",
+      "instagram": ""
+    }
   }
 }

@@ -6,7 +6,7 @@
             <img src="../assets/ic-logotype.svg">
             <span class="title">{{header.title}}</span>
             <span class="subtitle">{{header.subtitle}}</span>
-            <span class="subtitle">Formamos parte de coronavirusmakers.org</span>
+            <span class="coronavirusmakers">Formamos parte de coronavirusmakers.org</span>
         </div>
         <video autoplay loop muted playsinline width="100%">
             <source src="../assets/header.mp4" type="video/mp4">
@@ -36,8 +36,17 @@
                 if (height > 640) {
                     height = 640;
                 }
+
+                if (this.window.width < 600) {
+                    height += 20;
+                }
+
                 this.window.height = height;
-                this.marginTop = this.window.height / 4;
+                let marginTop = this.window.height / 4;
+
+                if (this.window.width < 600) marginTop = 20;
+
+                this.marginTop = marginTop;
             }
         },
         created() {
@@ -77,9 +86,32 @@
     }
 
     .subtitle {
+        font-family: Roboto;
         font-size: 40px;
-        font-family: "Roboto";
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
         margin-top: 34px;
+        width: 258px;
+        height: 46px;
+        background-color: #5070d7;
+    }
+
+    .coronavirusmakers {
+        width: 386px;
+        margin-top: 8px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
     }
 
     video {
@@ -90,6 +122,27 @@
     @media only screen and (max-width: 600px) {
         h1 {
             font-size: 2em;
+        }
+
+        .container img {
+            width: 60px;
+        }
+
+        .title {
+            font-size: 40px;
+            margin-top: 8px;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            margin-top: 12px;
+            width: 238px;
+            height: 36px;
+        }
+
+        .coronavirusmakers {
+            font-size: 20px;
+            margin-top: 8px;
         }
     }
 </style>

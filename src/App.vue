@@ -7,6 +7,7 @@
         <Visors v-bind:visors="config.visors"/>
         <Shovel v-bind:shovel="config.shovel"/>
         <Hashtag v-bind:info="config.be_part"/>
+        <Footer v-bind:footer="config.footer"/>
         <!--<div id="nav">
             <router-link to="/">Inicio</router-link>
             |
@@ -30,9 +31,10 @@
     import Hashtag from "@/views/Hashtag";
     import Visors from "@/views/Visors";
     import Shovel from "@/views/Shovel";
+    import Footer from "@/views/Footer";
 
     export default {
-        components: {Shovel, Visors, Hashtag, Production, Explanation, Header},
+        components: {Footer, Shovel, Visors, Hashtag, Production, Explanation, Header},
         data() {
             return {
                 config: {}

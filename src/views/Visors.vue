@@ -26,4 +26,11 @@
         justify-content: center;
         margin: 16px;
     }
+
+    @media only screen and (max-width: 600px) {
+        .visors {
+            flex-direction: column;
+            margin: 16px;
+        }
+    }
 </style>

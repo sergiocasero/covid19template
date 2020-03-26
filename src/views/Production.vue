@@ -5,7 +5,12 @@
             <span class="subtitle">{{production.subtitle}}</span>
         </div>
 
-        TODO: STATS
+        <div class="status">
+            <StatBar/>
+            <div>
+                <span class="title">EXTREMADURA</span>
+            </div>
+        </div>
 
         <div class="more">
             <span class="title">{{production.more.title}}</span>
@@ -16,9 +21,18 @@
 </template>
 
 <script>
+    import StatBar from "@/components/StatBar";
+    import * as axios from "axios";
+
     export default {
         name: "Production",
-        props: ["production"]
+        components: {StatBar},
+        props: ["production"],
+        methods: {
+            async getData() {
+                let response = await axios.get("https://aumpex.es:24501/");
+            }
+        }
     }
 </script>
 
@@ -28,12 +42,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 16px;
     }
 
     .header .title {
         width: 526px;
-        height: 40px;
         font-family: Roboto;
         font-size: 34px;
         font-weight: bold;
@@ -48,7 +60,6 @@
 
     .header .subtitle {
         width: 526px;
-        height: 40px;
         font-family: Roboto;
         font-size: 15px;
         font-weight: normal;
@@ -62,7 +73,6 @@
 
     .more .title {
         width: 198px;
-        height: 24px;
         font-family: Roboto;
         font-size: 20px;
         font-weight: bold;
@@ -76,7 +86,6 @@
 
     .more .subtitle {
         width: 348px;
-        height: 40px;
         font-family: Roboto;
         font-size: 15px;
         font-weight: normal;
@@ -106,5 +115,24 @@
         color: #ffffff;
         padding-top: 8px;
         margin: 16px;
+    }
+
+    .status .title {
+        width: 138px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.83;
+        letter-spacing: normal;
+        color: #222221;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .header, .header .title, .header .subtitle {
+            width: 100%;
+        }
     }
 </style>
