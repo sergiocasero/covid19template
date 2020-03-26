@@ -1,7 +1,7 @@
 <template>
     <div class="shovel">
         <img v-bind:src="shovel.image1"/>
-        <img v-bind:src="shovel.image2"/>
+        <img class="img2" v-bind:src="shovel.image2"/>
 
         <Section v-bind:text="shovel.text"
                  v-bind:title="shovel.title"/>
@@ -32,6 +32,10 @@
         height: 418px;
         margin: 10px;
         object-fit: cover;
+    }
+
+    .img2 {
+        width: 286px;
     }
 
     @media only screen and (max-width: 600px) {
