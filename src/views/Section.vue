@@ -21,7 +21,7 @@
     }
 
     .title {
-        width: 408px;
+        width: 100%;
         font-family: Roboto;
         font-size: 34px;
         font-weight: bold;
@@ -34,8 +34,7 @@
     }
 
     .text {
-        width: 408px;
-        height: 240px;
+        width: 100%;
         font-family: Roboto;
         font-size: 15px;
         font-weight: normal;

@@ -115,9 +115,17 @@
             margin: 16px;
         }
 
+        .footer .first div {
+            margin-top: 10px;
+        }
+
         .footer {
             height: 550px;
             background-color: #f7f8fb;
+        }
+
+        .second {
+            margin: 0px;
         }
     }
 </style>

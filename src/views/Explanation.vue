@@ -123,4 +123,10 @@
             width: 100%;
         }
     }
+
+    @media only screen and (max-width: 400px) {
+        .buttons .button {
+            margin: 34px 2px;
+        }
+    }
 </style>

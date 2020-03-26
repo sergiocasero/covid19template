@@ -1,6 +1,7 @@
 <template>
     <div class="visors">
-        <Section v-bind:text="visors.text"
+        <Section class="section"
+                 v-bind:text="visors.text"
                  v-bind:title="visors.title"/>
 
         <img v-bind:src="visors.image1"/>
@@ -31,6 +32,11 @@
         .visors {
             flex-direction: column;
             margin: 16px;
+        }
+
+        .section {
+            width: 95%;
+            margin: 0px;
         }
     }
 </style>

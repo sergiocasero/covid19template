@@ -145,4 +145,11 @@
             margin-top: 8px;
         }
     }
+
+
+    @media only screen and (max-width: 600px) {
+        .coronavirusmakers {
+            font-size: 16px;
+        }
+    }
 </style>

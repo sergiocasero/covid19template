@@ -86,4 +86,17 @@
             font-size: 12px;
         }
     }
+
+
+    @media only screen and (max-width: 400px) {
+
+        .header {
+            margin-top: 20px;
+        }
+
+        .Bitmap {
+            width: 100%;
+            height: 150px;
+        }
+    }
 </style>
