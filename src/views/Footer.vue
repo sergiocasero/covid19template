@@ -10,7 +10,8 @@
             <div class="social">
                 <span class="title">{{footer.social.title}}</span>
                 <div class="networks">
-                    <a v-bind:href="footer.social.twitter"><img src="ic-twitter.svg"></a>
+                    <a target="_blank" v-bind:href="footer.social.twitter"><img src="ic-twitter.svg"></a>
+                    <a target="_blank" v-bind:href="footer.social.instagram"><img src="ic-youtube-copy.svg"></a>
                 </div>
             </div>
         </div>
@@ -108,6 +109,32 @@
         margin-left: 16px;
     }
 
+    .social {
+        width: 250px;
+    }
+
+    .social .title {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .networks {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .networks a {
+        width: 38px;
+    }
 
     @media only screen and (max-width: 600px) {
         .footer .first {
