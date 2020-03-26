@@ -29,6 +29,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-decoration: none !important;
     }
 
     .link {
@@ -38,9 +39,9 @@
 
     img {
         width: 105px;
-        height: 117px;
+        height: 117px !important;
         object-fit: contain;
-        margin: 27px;
+        margin: 30px;
     }
 
     .title {

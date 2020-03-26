@@ -6,6 +6,7 @@
             <img src="../assets/ic-logotype.svg">
             <span class="title">{{header.title}}</span>
             <span class="subtitle">{{header.subtitle}}</span>
+            <span class="subtitle">Formamos parte de coronavirusmakers.org</span>
         </div>
         <video autoplay loop muted playsinline width="100%">
             <source src="../assets/header.mp4" type="video/mp4">
@@ -72,7 +73,7 @@
     .title {
         font-size: 70px;
         font-family: "Roboto Black";
-        margin-top: 32px;
+        margin-top: 34px;
     }
 
     .subtitle {

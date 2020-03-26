@@ -28,6 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 16px;
     }
 
     .header .title {
@@ -104,5 +105,6 @@
         text-align: center;
         color: #ffffff;
         padding-top: 8px;
+        margin: 16px;
     }
 </style>
