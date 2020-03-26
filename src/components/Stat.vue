@@ -1,33 +1,30 @@
 <template>
     <div class="stat">
-        <md-card class="card">
-            <md-card-media-cover md-solid>
-                <md-card-media md-ratio="4:3">
-                    <img alt="Skyscraper" v-bind:src="image">
-                </md-card-media>
-                <md-card-area>
-                    <md-card-header>
-                        <span class="md-title">{{number}}</span>
-                        <span class="md-subhead">{{text}}</span>
-                    </md-card-header>
-                </md-card-area>
-            </md-card-media-cover>
-        </md-card>
+        <div class="square" v-bind:style="{background: background}"></div>
+        <span>{{text}}: {{number}}</span>
     </div>
 </template>
 
 <script>
     export default {
         name: "Stat",
-        props: ["number", "text", "image"]
+        props: ["number", "text", "background"]
     }
 </script>
 
 <style scoped>
-    .card {
-        width: 300px;
+    .stat {
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
     }
 
-    .number {
+    .square {
+        width: 22px;
+        height: 22px;
+    }
+
+    span {
+        margin-left: 8px;
     }
 </style>
