@@ -160,6 +160,10 @@
         justify-content: center;
     }
 
+    .graph {
+        width: 700px;
+    }
+
     @media only screen and (max-width: 600px) {
 
         .header, .header .title, .header .subtitle {

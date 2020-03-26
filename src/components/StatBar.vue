@@ -18,7 +18,10 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false
+                maintainAspectRatio: false,
+                legend: {
+                    display: false
+                }
             }
         }),
         methods: {
@@ -30,7 +33,7 @@
 
                 this.chartdata.datasets = [];
                 this.chartdata.datasets.push({
-                    label: 'Totales',
+                    label: 'Datos',
                     backgroundColor: ["#5070d7", "#f8c578", "#ffe6ad", "#5fa599", "#78a9fa", "#d4608e"],
                     barPercentage: 0.5,
                     barThickness: 60,
