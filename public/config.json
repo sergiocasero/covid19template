@@ -18,7 +18,7 @@
   },
   "donations": {
     "title": "Ayúdanos a seguir",
-    "subtitle": "Con tu aporte podrémos llegar a más personas.",
+    "subtitle": "Con tu material, podremos llegar a más personas.",
     "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
   },
   "production": {
@@ -47,13 +47,13 @@
   },
   "visors": {
     "title": "Viseras COVID",
-    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit fringilla curabitur posuere purus sociis, etiam donec fermentum sapien tortor ut sollicitudin vehicula gravida praesent. \n\nPraesent nisl tincidunt fames primis non nibh sollicitudin consequat facilisis, massa lectus imperdiet tempor gravida vehicula in metus accumsan, pretium ullamcorper sem feugiat eros cum mollis ultrices. Sollicitudin consequat facilisis, massa lectus imperdiet tempor gravida vehicula in metus accumsan, pretium ullamcorper sem feugiat eros cum mollis ultrices.",
+    "text": "<br/>Con el fin de complementar los medios de proteccion que tienen las personas que estan expuestas, hemos elaborado un diseño de visera compuesto por una pieza impresa en 3D, una lamina de acetato o PVC y una cuerda de goma que se monta de una forma sencilla y es reutilizable, ya que se puede desinfectar para su posterior uso.<br/><br/>Si tienes impresora 3D y quieres imprimirlas puedes descargar el modelo <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/7-d-i-y?download=18:visera-hancoh-manual-y-stl'>aquí</a>, <br/>si necesitas mas informacion, puedes entrar aqui <a href='https://t.me/viseras_extremadura'>aquí</a> <br/>y si lo que quieres es solicitar viseras puedes hacerlo <a href='https://forms.gle/2mhtV9KW7LAmsnqeA'>aquí</a>",
     "image1": "group-copy-6.jpg",
     "image2": "group-copy-5.jpg"
   },
   "shovel": {
     "title": "Palas para respiradores asistidos",
-    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit fringilla curabitur posuere purus sociis, etiam donec fermentum sapien tortor ut sollicitudin vehicula gravida praesent. \n\nPraesent nisl tincidunt fames primis non nibh sollicitudin consequat facilisis, massa lectus imperdiet tempor gravida vehicula in metus accumsan, pretium ullamcorper sem feugiat eros cum mollis ultrices. Sollicitudin consequat facilisis, massa lectus imperdiet tempor gravida vehicula in metus accumsan, pretium ullamcorper sem feugiat eros cum mollis ultrices.",
+    "text": "<br/>Un grupo de profesionales voluntarios (médicos, diseñadores, desarrolladores, etc.) han diseñado un respirador autonomo open source, basado en el circuito para ventilación Jackson Rees. Éste, cuya fabricación está destinada a hacerse de forma industrial, requiere de una pala (que es la que empuja el balón del respirador) que es necesario sustituir por cada paciente, por lo que se ha optado por la construcción de la misma mediante impresión 3d. <br/>Tienes mas información <a href='https://www.coronavirusmakers.org/index.php/es/prototipos'>aquí</a> y puedes descargar el diseño de la pala <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/2-documentacion-general?download=9:modificacion-n2'>aquí</a>. Si la vas hacer y quieres que contemos con ella, sigue la información que vamos publicando <a href='https://t.me/CV19_FAB_EXTREMADURA'>aquí</a>",
     "image1": "shovel1.jpg",
     "image2": "shovel2.jpg"
   },

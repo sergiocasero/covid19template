@@ -1,7 +1,7 @@
 <template>
     <div class="section">
         <span class="title">{{title}}</span>
-        <span class="text">{{text}}</span>
+        <span class="text" v-html="text"></span>
     </div>
 </template>
 
