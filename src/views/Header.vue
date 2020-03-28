@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div class="placeholder" v-bind:style="{height: window.height + 'px', width: window.width + 'px'}">hello!!</div>
+        <div class="placeholder" v-bind:style="{height: window.height + 'px', width: window.width + 'px'}"></div>
 
         <div class="container" v-bind:style="{marginTop: marginTop + 'px'}">
             <img src="../assets/ic-logotype.svg">
