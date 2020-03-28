@@ -1,78 +1,78 @@
 {
-    "header": {
-        "title": "COVID-19 MAKERS",
-        "subtitle": "Extremadura"
-    },
-    "explanation": {
-        "title": "Luchamos contra el COVID-19 en la comunidad de Extremadura.",
-        "subtitle": "Somos un grupo de personas especializados en impresión 3D. Desde el inicio del estado de alarma nos hemos unodp ara ayudar en la lucha contra el COVID-19 haciendo impresiones en 3D de Palas y Viseras para ayudar a quién más lo necesita"
-    },
-    "order_donation": {
-        "title": "Actualmente trabajamos bajo pedido, solo debes rellenar el formulario de abajo con tus datos y te hacemos llegar la donación.",
-        "subtitle": "Si eres una empresa o particular y quieres hacernos una donación para ayudarnos a seguir realizando nuestras impresiones, por favor rellena el formulario de la derecha."
-    },
-    "orders": {
-        "title": "Solicitar un pedido",
-        "subtitle": "Dinos que necesitas y nosotros te lo enviamos.",
-        "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
-    },
-    "donations": {
-        "title": "Ayúdanos a seguir",
-        "subtitle": "Con tu material, podremos llegar a más personas.",
-        "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
-    },
-    "production": {
-        "title": "Conoce nuestra producción",
-        "subtitle": "En las siguientes gráficas podrás encontrar la información actual sobre nusetra producción y colas de impresión",
-        "more": {
-            "title": "Información completa",
-            "subtitle": "Accede a nuestra cuenta en Google Data para ver la información detallada por ciudad en tiempo real.",
-            "action": "Acceder al dashboard",
-            "link": "https://datastudio.google.com/embed/reporting/b7371742-0994-4b17-895f-0fda58b2f882/page/stpJB"
-        }
-    },
-    "hashtag": {
-        "title": "#QuédateEnCasa",
-        "subtitle": "Por ti, por los tuyos y por los nuestros.",
-        "image": "hashtag.jpg",
-        "link": "",
-        "imageset": "hashtag@2x.jpg 2x, hashtag@3x.jpg 3x"
-    },
-    "be_part": {
-        "title": "¿Quieres ser parte de COVID-19 Makers?",
-        "subtitle": "Si tienes una impresora 3D y disponibilidad para realizar las impresiones",
-        "link": "https://t.me/viseras_extremadura",
-        "image": "img-unete.jpg",
-        "imageset": "img-unete@2x.jpg 2x, img-unete@3x.jpg 3x"
-    },
-    "visors": {
-        "title": "Viseras COVID",
-        "text": "<br/>Con el fin de complementar los medios de proteccion que tienen las personas que estan expuestas, hemos elaborado un diseño de visera compuesto por una pieza impresa en 3D, una lamina de acetato o PVC y una cuerda de goma que se monta de una forma sencilla y es reutilizable, ya que se puede desinfectar para su posterior uso.<br/><br/>Si tienes impresora 3D y quieres imprimirlas puedes descargar el modelo <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/7-d-i-y?download=18:visera-hancoh-manual-y-stl'>aquí</a>, <br/>si necesitas mas informacion, puedes entrar <a href='https://t.me/viseras_extremadura'>aquí</a> <br/>y si lo que quieres es solicitar viseras puedes hacerlo <a href='https://forms.gle/2mhtV9KW7LAmsnqeA'>aquí</a>",
-        "image1": "group-copy-6.jpg",
-        "image2": "group-copy-5.jpg"
-    },
-    "shovel": {
-        "title": "Palas para respiradores asistidos",
-        "text": "<br/>Un grupo de profesionales voluntarios (médicos, diseñadores, desarrolladores, etc.) han diseñado un respirador autonomo open source, basado en el circuito para ventilación Jackson Rees. Éste, cuya fabricación está destinada a hacerse de forma industrial, requiere de una pala (que es la que empuja el balón del respirador) que es necesario sustituir por cada paciente, por lo que se ha optado por la construcción de la misma mediante impresión 3d. <br/>Tienes mas información <a href='https://www.coronavirusmakers.org/index.php/es/prototipos'>aquí</a> y puedes descargar el diseño de la pala <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/2-documentacion-general?download=9:modificacion-n2'>aquí</a>. Si la vas hacer y quieres que contemos con ella, sigue la información que vamos publicando <a href='https://t.me/CV19_FAB_EXTREMADURA'>aquí</a>",
-        "image1": "shovel1.jpg",
-        "image2": "shovel2.jpg"
-    },
-    "footer": {
-        "links": [
-            {
-                "title": "Realizar un pedido",
-                "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
-            },
-            {
-                "title": "Solicitar una donación",
-                "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
-            }
-        ],
-        "social": {
-            "title": "¡SÍGUENOS EN NUESTRAS REDES!",
-            "facebook": "",
-            "twitter": "https://twitter.com/cv19_makers_ex",
-            "instagram": ""
-        }
+  "header": {
+    "title": "COVID-19 MAKERS",
+    "subtitle": "Extremadura"
+  },
+  "explanation": {
+    "title": "Luchamos contra el COVID-19 en la comunidad de Extremadura.",
+    "subtitle": "Somos un grupo de personas especializados en impresión 3D. Desde el inicio del estado de alarma nos hemos unido para ayudar en la lucha contra el COVID-19 haciendo impresiones en 3D de Palas y Viseras para ayudar a quién más lo necesita."
+  },
+  "order_donation": {
+    "title": "Actualmente trabajamos bajo pedido, solo debes rellenar el formulario de abajo con tus datos y te hacemos llegar la donación.",
+      "subtitle": "Si eres una empresa o particular y quieres hacernos una donación para ayudarnos a seguir realizando nuestras impresiones, por favor rellena el formulario de la derecha. Recuerda, NO pedimos dinero."
+  },
+  "orders": {
+    "title": "Solicitar un pedido",
+    "subtitle": "Dinos que necesitas y nosotros te lo enviamos.",
+    "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
+  },
+  "donations": {
+    "title": "Ayúdanos a seguir",
+    "subtitle": "Con tu material, podremos llegar a más personas.",
+    "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
+  },
+  "production": {
+    "title": "Conoce nuestra producción",
+    "subtitle": "En las siguientes gráficas podrás encontrar la información actual sobre nusetra producción y colas de impresión",
+    "more": {
+      "title": "Información completa",
+      "subtitle": "Accede a nuestra cuenta en Google Data para ver la información detallada por ciudad en tiempo real.",
+      "action": "Acceder al dashboard",
+      "link": "https://datastudio.google.com/embed/reporting/b7371742-0994-4b17-895f-0fda58b2f882/page/stpJB"
     }
+  },
+  "hashtag": {
+    "title": "#QuédateEnCasa",
+    "subtitle": "Por ti, por los tuyos y por los nuestros.",
+    "image": "hashtag.jpg",
+    "link": "",
+    "imageset": "hashtag@2x.jpg 2x, hashtag@3x.jpg 3x"
+  },
+  "be_part": {
+    "title": "¿Quieres ser parte de COVID-19 Makers?",
+    "subtitle": "Si tienes una impresora 3D y disponibilidad para realizar las impresiones",
+    "link": "https://t.me/viseras_extremadura",
+    "image": "img-unete.jpg",
+    "imageset": "img-unete@2x.jpg 2x, img-unete@3x.jpg 3x"
+  },
+  "visors": {
+    "title": "Viseras COVID",
+    "text": "<br/>Con el fin de complementar los medios de proteccion que tienen las personas que estan expuestas, hemos elaborado un diseño de visera compuesto por una pieza impresa en 3D, una lamina de acetato o PVC y una cuerda de goma que se monta de una forma sencilla y es reutilizable, ya que se puede desinfectar para su posterior uso.<br/><br/>Si tienes impresora 3D y quieres imprimirlas puedes descargar el modelo <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/7-d-i-y?download=18:visera-hancoh-manual-y-stl'>aquí</a>, <br/>si necesitas mas informacion, puedes entrar <a href='https://t.me/viseras_extremadura'>aquí</a> <br/>y si lo que quieres es solicitar viseras puedes hacerlo <a href='https://forms.gle/2mhtV9KW7LAmsnqeA'>aquí</a>",
+    "image1": "group-copy-6.jpg",
+    "image2": "group-copy-5.jpg"
+  },
+  "shovel": {
+    "title": "Palas para respiradores asistidos",
+    "text": "<br/>Un grupo de profesionales voluntarios (médicos, diseñadores, desarrolladores, etc.) han diseñado un respirador autonomo open source, basado en el circuito para ventilación Jackson Rees. Éste, cuya fabricación está destinada a hacerse de forma industrial, requiere de una pala (que es la que empuja el balón del respirador) que es necesario sustituir por cada paciente, por lo que se ha optado por la construcción de la misma mediante impresión 3d. <br/>Tienes mas información <a href='https://www.coronavirusmakers.org/index.php/es/prototipos'>aquí</a> y puedes descargar el diseño de la pala <a href='https://www.coronavirusmakers.org/index.php/es/documentos/category/2-documentacion-general?download=9:modificacion-n2'>aquí</a>. Si la vas hacer y quieres que contemos con ella, sigue la información que vamos publicando <a href='https://t.me/CV19_FAB_EXTREMADURA'>aquí</a>",
+    "image1": "shovel1.jpg",
+    "image2": "shovel2.jpg"
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "Realizar un pedido",
+        "link": "https://forms.gle/2mhtV9KW7LAmsnqeA"
+      },
+      {
+        "title": "Solicitar una donación",
+        "link": "https://forms.gle/DHFfpi3iyo5EGG3C6"
+      }
+    ],
+    "social": {
+      "title": "¡SÍGUENOS EN NUESTRAS REDES!",
+      "facebook": "",
+      "twitter": "https://twitter.com/cv19_makers_ex",
+      "instagram": ""
+    }
+  }
 }
