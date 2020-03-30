@@ -3,13 +3,13 @@
         <div class="placeholder" v-bind:style="{height: window.height + 'px', width: window.width + 'px'}"></div>
 
         <div class="container" v-bind:style="{marginTop: marginTop + 'px'}">
-            <img src="../assets/ic-logotype.svg">
+            <img src="../../../src/assets/ic-logotype.svg">
             <span class="title">{{header.title}}</span>
             <span class="subtitle">{{header.subtitle}}</span>
             <span class="coronavirusmakers">Formamos parte de coronavirusmakers.org</span>
         </div>
         <video autoplay loop muted playsinline width="100%">
-            <source src="../assets/header.mp4" type="video/mp4">
+            <source src="../../../src/assets/header.mp4" type="video/mp4">
         </video>
     </div>
 </template>

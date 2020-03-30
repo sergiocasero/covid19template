@@ -27,7 +27,7 @@
 </template>
 
 <script>
-    import Button from "@/views/Button";
+    import Button from "./Button";
 
     export default {
         name: "Explanation",

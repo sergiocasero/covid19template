@@ -1,32 +1,46 @@
 <template>
     <div class="home">
-        <Stat class="stat"
-              image="visors.jpg"
-              number="1000"
-              text="viseras impresas"/>
-
-        <Stat class="stat"
-              image="visors.jpg"
-              number="1000"
-              text="viseras impresas"/>
-
-        <Stat class="stat"
-              image="visors.jpg"
-              number="1000"
-              text="viseras impresas"/>
+        <Explanation v-bind:config="config"/>
+        <Production v-bind:production="config.production"/>
+        <Hashtag v-bind:info="config.hashtag"/>
+        <Visors v-bind:visors="config.visors"/>
+        <Shovel v-bind:shovel="config.shovel"/>
+        <Hashtag v-bind:info="config.be_part"/>
+        <Footer v-bind:footer="config.footer"/>
     </div>
 </template>
 
 <script>
-    // @ is an alias to /src
-    import HelloWorld from '@/components/HelloWorld.vue'
-    import Stat from "@/components/Stat";
+    import Explanation from "@/views/home/Explanation";
+    import * as axios from "axios";
+    import Production from "@/views/home/Production";
+    import Hashtag from "@/views/home/Hashtag";
+    import Visors from "@/views/home/Visors";
+    import Shovel from "@/views/home/Shovel";
+    import Footer from "@/views/home/Footer";
 
     export default {
         name: 'Home',
         components: {
-            Stat,
-            HelloWorld
+            Footer,
+            Shovel,
+            Visors,
+            Hashtag,
+            Production,
+            Explanation
+        },
+        data() {
+            return {
+                config: {}
+            }
+        },
+        methods: {
+            async getConfig() {
+                this.config = (await axios.get("config.json")).data;
+            }
+        },
+        created() {
+            this.getConfig();
         }
     }
 </script>
@@ -34,19 +48,7 @@
 <style scoped>
     .home {
         display: flex;
-        flex-direction: row;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .stat {
-        margin: 10px;
-    }
-
-    @media only screen and (max-width: 600px) {
-        .home {
-            flex-direction: column;
-        }
+        flex-direction: column;
+        width: 100%;
     }
 </style>

@@ -1,40 +1,17 @@
 <template>
     <div id="app">
         <Header v-bind:header="config.header"/>
-        <Explanation v-bind:config="config"/>
-        <Production v-bind:production="config.production"/>
-        <Hashtag v-bind:info="config.hashtag"/>
-        <Visors v-bind:visors="config.visors"/>
-        <Shovel v-bind:shovel="config.shovel"/>
-        <Hashtag v-bind:info="config.be_part"/>
-        <Footer v-bind:footer="config.footer"/>
-        <!--<div id="nav">
-            <router-link to="/">Inicio</router-link>
-            |
-            <router-link to="/orders">Pedidos</router-link>
-            |
-            <router-link to="/donations">Donaciones</router-link>
-            |
-            <router-link to="/visors">Viseras</router-link>
-            |
-            <router-link to="/shovels">Palas</router-link>
-        </div>
-        <router-view/>-->
+        <router-view/>
     </div>
 </template>
 
 <script>
-    import Header from "@/views/Header";
-    import Explanation from "@/views/Explanation";
-    import Production from "@/views/Production";
+    import Header from "@/views/home/Header";
     import * as axios from "axios";
-    import Hashtag from "@/views/Hashtag";
-    import Visors from "@/views/Visors";
-    import Shovel from "@/views/Shovel";
-    import Footer from "@/views/Footer";
+    import Home from "@/views/Home";
 
     export default {
-        components: {Footer, Shovel, Visors, Hashtag, Production, Explanation, Header},
+        components: {Home, Header},
         data() {
             return {
                 config: {}
@@ -43,7 +20,6 @@
         methods: {
             async getConfig() {
                 this.config = (await axios.get("config.json")).data;
-                console.log(this.config);
             }
         },
         created() {
