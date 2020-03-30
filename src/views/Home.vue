@@ -6,6 +6,7 @@
         <Visors v-bind:visors="config.visors"/>
         <Shovel v-bind:shovel="config.shovel"/>
         <Hashtag v-bind:info="config.be_part"/>
+        <!--<Partners/>-->
         <Footer v-bind:footer="config.footer"/>
     </div>
 </template>
@@ -18,10 +19,12 @@
     import Visors from "@/views/home/Visors";
     import Shovel from "@/views/home/Shovel";
     import Footer from "@/views/home/Footer";
+    import Partners from "@/views/Partners";
 
     export default {
         name: 'Home',
         components: {
+            Partners,
             Footer,
             Shovel,
             Visors,

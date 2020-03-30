@@ -9,11 +9,11 @@
             <StatBar class="graph"/>
             <div class="textStats">
                 <span class="title">EXTREMADURA</span>
-                <Stat v-bind:background="'#ffe6ad'" v-bind:number="stats.stock" v-bind:text="'Stock'"/>
-                <Stat v-bind:background="'#f8c578'" v-bind:number="stats.orders" v-bind:text="'Pedidos'"/>
-                <Stat v-bind:background="'#78a9fa'" v-bind:number="stats.sheets" v-bind:text="'Láminas'"/>
                 <Stat v-bind:background="'#5070d7'" v-bind:number="stats.state" v-bind:text="'Estado'"/>
+                <Stat v-bind:background="'#f8c578'" v-bind:number="stats.orders" v-bind:text="'Pedidos'"/>
+                <Stat v-bind:background="'#ffe6ad'" v-bind:number="stats.stock" v-bind:text="'Stock'"/>
                 <Stat v-bind:background="'#5fa599'" v-bind:number="stats.sent" v-bind:text="'Entregadas'"/>
+                <Stat v-bind:background="'#78a9fa'" v-bind:number="stats.sheets" v-bind:text="'Láminas'"/>
                 <Stat v-bind:background="'#d4608e'" v-bind:number="stats.total" v-bind:text="'Total hechas'"/>
             </div>
         </div>
@@ -42,7 +42,7 @@
         },
         methods: {
             async getData() {
-                let response = await axios.get("https://aumpex.es:24501/");
+                let response = await axios.get("https://covid19extremadura.es:24501/");
                 this.stats = response.data;
             }
         },
