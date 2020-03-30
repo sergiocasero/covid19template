@@ -26,7 +26,7 @@
         }),
         methods: {
             async getData() {
-                let response = await axios.get("https://aumpex.es:24501/");
+                let response = await axios.get("https://covid19extremadura.es:24501/");
                 let data = response.data;
 
                 // {"sheets": "9224", "state": "-6028", "orders": "8382", "sent": "6591", "stock": "2354"}
